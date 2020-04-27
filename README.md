@@ -1,2 +1,6 @@
 # web-420
-Bellevue University Course WEB420 - RESTFul APIs
+RESTFul APIs
+
+# contributors
+Richard Krasso - Bellevue University  
+Emily Richter - Bellevue University
