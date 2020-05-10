@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  API Gateway
+; Author: Emily Richter
+; Date:   27 April 2020
+; Description: REST
+;===========================================
+*/
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');

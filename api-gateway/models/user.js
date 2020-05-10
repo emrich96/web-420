@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  user.js
+; Author: Emily Richter
+; Date:   4 May 2020
+; Description: User model and schema
+;===========================================
+*/
+
 /**
  * Fields username, password, and email
  */

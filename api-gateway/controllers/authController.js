@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  authController.js
+; Author: Emily Richter
+; Date:   4 May 2020
+; Description: Controller for user authorization
+;===========================================
+*/
+
 var User = require('../models/user');
 
 // Register new user on POST

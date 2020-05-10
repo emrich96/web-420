@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  api-catalog.js
+; Author: Emily Richter
+; Date:   4 May 2020
+; Description: Routing for authController
+;===========================================
+*/
+
 /**
  * API routes
  */
