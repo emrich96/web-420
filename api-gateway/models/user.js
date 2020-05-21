@@ -2,8 +2,8 @@
 ============================================
 ; Title:  user.js
 ; Author: Emily Richter
-; Date:   4 May 2020
-; Description: User model and schema
+; Date:   20 May 2020
+; Description: User model, schema, and user add and query functions
 ;===========================================
 */
 
@@ -23,3 +23,13 @@
  /**
   * Database queries
   */
+
+// user.save is used to add a new user in the database
+module.exports.add = (user, callback) => {
+  user.save(callback);
+};
+
+module.exports.getById = (id, callback) => {
+  var query = {_id: id};
+  User.findById(query, callback);
+};
