@@ -18,7 +18,7 @@
    email: String
  });
 
- module.exports = mongoose.model('User', userSchema);
+ const User = module.exports = mongoose.model('User', userSchema);
 
  /**
   * Database queries
